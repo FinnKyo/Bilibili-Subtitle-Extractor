@@ -1,38 +1,36 @@
-# Bilibili 字幕抽取器 📺✨
+# Bilibili 字幕抽取器
 
-> 🎵 一个个人 vibe 驱动的浏览器小插件，帮你一键提取 B 站视频的 CC 字幕，并整理成干净、可复制的文本。
+一个轻量级的 Chrome 浏览器扩展，用于一键提取 B 站视频自带的 CC 字幕，并整理成可直接复制的结构化纯文本。
 
-## 🌟 特性 (Features)
+## 特性
 
-- **一键提取**：在任意 Bilibili 视频播放页，点击插件图标即可拉取视频自带的 CC 字幕（闭路字幕）。
-- **极简纯粹**：没有繁琐的设置，点击即刻解析，支持多语言字幕轨道。
-- **方便复制**：自动整理成结构化文本，方便直接粘贴到笔记软件、翻译工具或者做二创使用。
-- **隐私友好**：纯本地获取 B 站公开 API，没有第三方服务器中转。
+- 一键提取当前播放视频的 CC 字幕（支持多语言轨道）
+- 自动格式化时间轴和字幕文本，方便复制
+- 极简 UI，纯本地解析 Bilibili 官方接口，无第三方服务器介入
 
-## 🚀 安装指南 (Installation)
+## 安装说明
 
-由于是个人小工具，可以十分简单地通过**开发者模式**手动加载：
+由于暂未上架扩展商店，请通过开发者模式手动加载：
 
-1. `git clone https://github.com/FinnKyo/Bilibili-Subtitle-Extractor.git` （或者直接下载 ZIP 包并解压）。
-2. 打开 Chrome / Edge 等 Chromium 内核浏览器，地址栏输入并访问扩展程序页面（例如：`chrome://extensions/`）。
-3. 开启右上角的 **“开发者模式” (Developer mode)**。
-4. 点击左上角的 **“加载已解压的扩展程序” (Load unpacked)**。
-5. 选择你刚刚克隆或解压的 `Bilibili-Subtitle-Extractor` 文件夹。
-6. 🎉 大功告成！你可以把它固定在浏览器的工具栏上，方便随时调用。
+1. 克隆或下载本项目到本地：
+   `git clone https://github.com/FinnKyo/Bilibili-Subtitle-Extractor.git`
+2. 打开 Chromium 内核浏览器（如 Chrome 或 Edge），访问扩展程序页面：`chrome://extensions/`
+3. 开启页面上的“开发者模式”。
+4. 点击“加载已解压的扩展程序”。
+5. 选择本项目的文件夹，完成安装。
 
-## 💡 随手一用 (Usage)
+## 使用方法
 
-1. 打开一个带有 CC 字幕的 B 站视频（如果视频本身没有外挂/CC字幕是提取不到的哦）。
-2. 点开右上角的插件图标。
-3. 稍等片刻，它会自动拉取当前的视频信息和字幕轨道。
-4. 愉快地复制你想要的字幕！
+1. 打开任意带有 CC 字幕的 Bilibili 视频页面。
+2. 点击浏览器右上角的扩展程序图标。
+3. 扩展会自动读取当前视频的信息并展示可用的字幕。
+4. 复制所需的字幕内容即可。
 
-## 🛠 随性的技术栈 (Tech Stack)
+## 技术栈
 
 - Chrome Extension Manifest V3
-- Vanilla JS (没加框架，原生更轻量)
-- HTML5 / CSS3
+- Vanilla JS, HTML5, CSS3
 
-## 📝 License
+## License
 
-MIT License. Just for fun!
+MIT
