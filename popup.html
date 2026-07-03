@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bilibili 字幕抽取器</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div>
+          <h1>Bilibili 字幕</h1>
+          <p id="status" class="status">正在读取当前页面...</p>
+        </div>
+        <button id="reloadButton" class="icon-button" type="button" title="重新抽取">↻</button>
+      </header>
+
+      <section class="summary" aria-label="视频信息">
+        <span id="meta" class="meta"></span>
+      </section>
+
+      <section id="subtitleList" class="subtitle-list" aria-live="polite"></section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

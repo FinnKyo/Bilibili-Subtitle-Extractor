@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili 字幕抽取器",
+  "version": "1.1.7",
+  "description": "抽取当前 Bilibili 视频页面已有字幕，并整理成可复制文本。",
+  "permissions": ["activeTab", "clipboardWrite", "scripting"],
+  "host_permissions": [
+    "https://*.bilibili.com/*",
+    "https://hdslb.com/*",
+    "https://*.hdslb.com/*",
+    "https://bilivideo.com/*",
+    "https://*.bilivideo.com/*"
+  ],
+  "action": {
+    "default_title": "抽取 Bilibili 字幕",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
